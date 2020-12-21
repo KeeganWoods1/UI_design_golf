@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Tee-Time</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Molle:ital@1&family=Montserrat:ital,wght@1,900&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://kit.fontawesome.com/10fcb38925.js" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <section id="title">
+      <div class="container-fluid top-banner">
+        <!-- Nav Bar -->
+
+        <nav class="navbar navbar-expand-lg myNavbar navbar-dark justify-content-between">
+          <a class="navbar-brand" href="">Tee-Time</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Plans</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- Title -->
+
+        <div class="row title">
+          <div class="col-sm-7">
+            <h1>Party up with golfers of your skill, anywhere you go.</h1>
+            <button type="button" class="btn-lg download-btn download-btn-dark">
+              <i class="fa fa-apple" aria-hidden="true"></i> Download
+            </button>
+            <button type="button" class="btn-lg btn-outline-light download-btn">
+              <i class="fab fa-google-play"></i> Download
+            </button>
+          </div>
+          <div class="col-sm-5 mockup-column">
+            <img id="mockup" src="images/iphone6.png" alt="iphone-mockup" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+
+    <section id="features">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4 feature-column">
+            <i class="fas fa-check-circle icon"></i>
+            <h3>Easy to use.</h3>
+            <p>We'll have you teeing off in no time.</p>
+          </div>
+          <div class="col-lg-4 feature-column">
+            <i class="fas fa-bullseye icon"></i>
+            <h3>Skill-based matchmaking.</h3>
+            <p>Play with people your own level, no stress.</p>
+          </div>
+          <div class="col-lg-4 feature-column">
+            <i class="fas fa-project-diagram icon"></i>
+            <h3>Expand your network.</h3>
+            <p>Share you passion, make connections, make friends.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+
+    <section id="testimonials">
+      <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2>
+              I no longer have to risk getting paired with golfers I am not compatible with. I've
+              found great people to golf with using tee-time.
+            </h2>
+            <img class="profile-pic" src="images/golf-profile.jpg" alt="user-profile" />
+            <em>Keegan, Montreal</em>
+          </div>
+
+          <div class="carousel-item">
+            <h2 class="testimonial-text">
+              I used to golf alone, but with Tee-Time's help, I've found other golfers who are just
+              like me.
+            </h2>
+            <img class="profile-pic" src="images/trooper-profile.jpg" alt="lady-profile" />
+            <em>FV4296, Deathstar</em>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#testimonial-carousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#testimonial-carousel"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Press -->
+
+    <section id="press">
+      <img class="press-logo" src="images/techcrunch.png" alt="tc-logo" />
+      <img class="press-logo" src="images/tnw.png" alt="tnw-logo" />
+      <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo" />
+      <img class="press-logo" src="images/mashable.png" alt="mashable-logo" />
+    </section>
+
+    <!-- Pricing -->
+
+    <section id="pricing">
+      <h2>A Plan for Every Golfer's Needs</h2>
+      <p>Simple and affordable price plans for you.</p>
+
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-4 col-card">
+          <div class="card text-center">
+            <div class="card-header">
+              <h3>Lite</h3>
+            </div>
+            <div class="card-body">
+              <h2>Free</h2>
+              <p>2 Matches Per Month</p>
+              <p>Non-priority user</p>
+            </div>
+            <div class="card-footer text-muted">
+              <a href="#" class="btn btn-block free-signup-btn">Sign Up</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 col-card">
+          <div class="card text-center">
+            <div class="card-header">
+              <h3>Pro</h3>
+            </div>
+            <div class="card-body">
+              <h2>$9 / mo</h2>
+              <p>10 Matches Per Month</p>
+              <p>Priority Listing</p>
+            </div>
+            <div class="card-footer text-muted">
+              <a href="#" class="btn btn-block signup-btn">Sign Up</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-card">
+          <div class="card text-center">
+            <div class="card-header">
+              <h3>Executive</h3>
+            </div>
+            <div class="card-body">
+              <h2>$19 / mo</h2>
+              <p>Unlimited Matches</p>
+              <p>Top Pirority Listing</p>
+            </div>
+            <div class="card-footer text-muted">
+              <a href="#" class="btn btn-block signup-btn">Sign Up</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+
+    <section id="cta">
+      <h1>Find Your Perfect Golf Partners Today, and Never Golf Alone Again.</h1>
+      <button type="button" class="btn-lg download-btn download-btn-dark">
+        <i class="fa fa-apple" aria-hidden="true"></i> Download
+      </button>
+      <button type="button" class="btn-lg btn-outline-light download-btn">
+        <i class="fab fa-google-play"></i> Download
+      </button>
+    </section>
+
+    <!-- Footer -->
+
+    <footer id="footer">
+      <i class="fab fa-twitter footer-icon"></i>
+      <i class="fab fa-facebook-f footer-icon"></i>
+      <i class="fab fa-instagram footer-icon"></i>
+      <i class="fas fa-envelope footer-icon"></i>
+      <p>© Copyright 2020 tee-time</p>
+    </footer>
+  </body>
+</html>

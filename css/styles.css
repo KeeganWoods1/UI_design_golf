@@ -1,0 +1,162 @@
+body {
+  background-color: #ebecf1;
+  font-family: 'Montserrat', sans-serif;
+}
+h1 {
+  size: 3.5rem;
+  line-height: 1.5;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
+}
+h3 {
+  color: #1b1c25;
+}
+p {
+  font-family: 'Ubuntu', sans-serif;
+  color: #6d6d6d;
+}
+
+.col-card {
+  padding: 3%;
+}
+.download-btn {
+  margin: 30px 10px 0 0;
+  border-width: 1px;
+}
+.download-btn-dark {
+  background-color: #1b1c25;
+  color: white;
+}
+.download-btn-dark:hover {
+  background-color: #33333b;
+}
+.card {
+  height: 100%;
+}
+.card-footer {
+  border: 0;
+  background-color: #fff;
+}
+.carousel-item {
+  padding: 6% 15%;
+}
+.container-fluid {
+  padding: 3% 15%;
+}
+.icon {
+  color: #4a776f;
+  font-size: 3.5rem;
+  padding-bottom: 20px;
+}
+.icon:hover {
+  color: #206a5d;
+}
+.feature-column {
+  color: #436f8a;
+  padding: 10% 4%;
+}
+.footer-icon {
+  padding: 160px 10px 20px 10px
+}
+.mockup-column {
+  text-align: center;
+}
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+.navbar-brand {
+  font-family: 'Molle', cursive;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1rem;
+}
+.press-logo {
+  width: 12%;
+  margin: 20px 20px 50px;
+}
+.profile-pic {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin: 20px;
+}
+.signup-btn {
+  background-color: #1b1c25;
+  color: #fff;
+}
+.signup-btn:hover{
+  background-color: #4a776f;
+  color: #fff;
+}
+.free-signup-btn {
+  border: 1px solid #1b1c25;
+  color: #1b1c25;
+}
+.free-signup-btn:hover {
+  color: #4a776f;
+  border: 1px solid #4a776f;
+}
+#cta {
+  background-color: #206a5d;
+  padding-top: 150px;
+  padding-bottom: 350px;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+}
+#features {
+  background-color: #fff;
+  text-align: center;
+  position: relative;
+  z-index: 1;  
+}
+#footer{
+  text-align: center;
+  padding-bottom: 90px;
+}
+#mockup {
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 0px;
+  transform: rotate(25deg);
+  width: 55%;
+  position: absolute;
+}
+@media (max-width: 900px) {
+  #mockup {
+    margin-left: 0px;
+    position: static;
+    transform: rotate(0);
+    width: 200px;
+  }
+  .title {
+    text-align: center;
+  }
+}
+#press {
+  background-color: #4a776f;
+  text-align: center;
+  padding-bottom: 3%;
+}
+#pricing {
+  padding: 3% 15%;
+  text-align: center;
+}
+#testimonials {
+  background-color: #4a776f;
+  color: #ebecf1;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+}
+#title {
+  background-color: #206a5d;
+  padding-bottom: 70px;
+  color: #1b1c25;
+}
